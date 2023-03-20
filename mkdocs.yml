@@ -22,7 +22,7 @@ nav:
     - 线性代数:
       - 行列式的构造、基本性质及其应用: further-math/linear-algebra/determinant.md
 
-site_name: Commu-YCYZ
+site_name: YCYZ 通讯
 site_description: Commu-YCYZ 是一群毕业生设立的自由网站，致力于为高中生分享便于自学的知识和技巧。
 site_author: Commu-YCYZ Team
 repo_url: https://github.com/Commu-YCYZ/Commu-YCYZ
