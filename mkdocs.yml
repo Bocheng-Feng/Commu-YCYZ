@@ -12,6 +12,7 @@ nav:
   - 物理:
     - 电磁学:
       - 常见模型的深入理解: physics/electromagnetics/deeper-understanding-on-regular-models.md
+    - 2019-SI介绍: physics/2019-si.md
   - 物理竞赛:
     - 数学:
       - 微积分基础: physics-olympiad/math/basic-calculus.md
@@ -23,7 +24,7 @@ nav:
       - 行列式的构造、基本性质及其应用: further-math/linear-algebra/determinant.md
 
 site_name: YCYZ 通讯
-site_description: Commu-YCYZ 是一群毕业生设立的自由网站，致力于为高中生分享便于自学的知识和技巧。
+site_description: Commu-YCYZ 是由一群毕业生设立的自由网站，致力于为高中生们分享便于自学的知识和技巧。
 site_author: Commu-YCYZ Team
 repo_url: https://github.com/Commu-YCYZ/Commu-YCYZ
 repo_name: Commu-YCYZ
