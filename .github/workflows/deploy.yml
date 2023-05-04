@@ -1,12 +1,12 @@
-name: Deploy To Tencentcloud Server
+name: Deploy
 run-name: ${{ github.actor }} is deploying to server
 on:
   push:
     branches: master
 
 jobs:
-  update-dependencies:
-    runs-on: self-hosted
+  build:
+    runs-on: webserver
     steps:
       - uses: actions/checkout@v3
       - name: Auto Build
