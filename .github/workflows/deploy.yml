@@ -6,21 +6,12 @@ on:
 
 jobs:
   update-dependencies:
-  
-    runs-on: ubuntu-22.04
-    
+    runs-on: self-hosted
     steps:
+      - uses: actions/checkout@v2
       - name: Auto Build
-        uses: appleboy/ssh-action@v0.1.7
-        with:
-          host: ${{ secrets.TENCENT_HOST }}
-          username: ${{ secrets.TENCENT_USER }}
-          key: ${{ secrets.TENCENT_PRIVATE_KEY }}
-          script: |
-            cd ~/Commu-YCYZ
-            git checkout master
-            git pull
-            pipenv install
-            pipenv run mkdocs build
-            minify -ars -o msite site
-            cp -rf ~/Commu-YCYZ/msite/site/* ${{ secrets.TENCENT_WORKING_DIR }}
+        run: |
+          pipenv install
+          pipenv run mkdocs build
+          minify -ars -o msite site
+          cp -rf msite/site/* ${{ secrets.TENCENT_WORKING_DIR }}
