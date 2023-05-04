@@ -9,6 +9,10 @@ nav:
     - 计数原理:
       # - 加法原理与乘法原理: math/counting/counting-principle.md
       - 多项式定理: math/counting/multinomial-theorem.md
+  - 数学竞赛:
+    - 数论:
+      - 简介: math-olympiad/number-theory/intro.md
+      - 整除: math-olympiad/number-theory/divisibility.md
   - 物理:
     - 电磁学:
       - 常见模型的深入理解: physics/electromagnetics/deeper-understanding-on-regular-models.md
