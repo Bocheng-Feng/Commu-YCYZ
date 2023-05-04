@@ -1,5 +1,9 @@
 # Commu-YCYZ 自述文档
 
+[![Deploy](https://github.com/Commu-YCYZ/Commu-YCYZ/actions/workflows/deploy.yml/badge.svg?event=push)](https://github.com/Commu-YCYZ/Commu-YCYZ/actions/workflows/deploy.yml)
+
+---
+
 ## GitHub 加速
 
 如果您发现 **GitHub** 加载过慢，您可以安装 [Watt Toolkit](https://steampp.net/) 以加快访问。
