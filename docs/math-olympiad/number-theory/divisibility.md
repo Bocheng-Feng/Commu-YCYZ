@@ -242,7 +242,7 @@ $$a\mid m,b\mid m,a\mid m^\prime,b\mid m^\prime$$
 
 设 $m=aa^\prime=bb^\prime$,$m^\prime=aa^{\prime\prime}=bb^{\prime\prime}$,其中 $a^\prime$,$b^\prime$,$a^{\prime\prime}$,$b^{\prime\prime}$ 均为整数.于是
 
-$$r=a(a^{\prime\prime}-a^\primeq)=b(b^{\prime\prime}-b^\primeq)$$
+$$r=a(a^{\prime\prime}-a^\prime)=b(b^{\prime\prime}-b^\prime)$$
 
 所以 $a\mid r$,$b\mid r$,所以 $r$ 为 $a$ 和 $b$ 的公倍数。这与 $1\leqslant r<m$ 矛盾.
 
