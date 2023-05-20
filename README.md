@@ -6,9 +6,7 @@
 
 ## GitHub 加速
 
-如果您发现 **GitHub** 加载过慢，您可以安装 [Watt Toolkit](https://steampp.net/) 以加快访问。
-
-注意：运行 `git pull`, `git push` 等操作时需关闭 **Watt Toolkit**
+如果您发现 **GitHub** 加载过慢，您可以安装 [FastGithub](https://github.com/dotnetcore/FastGithub) 以加快访问。
 
 ## 部署本站
 
